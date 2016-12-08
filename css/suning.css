@@ -1,0 +1,566 @@
+body{
+					margin: 0;
+				}
+				.fl{
+					float: left;
+				}
+				.fr{
+					float: right;
+				}
+				.clearFix:after{
+					content: "";
+					display: block;
+					clear: both;
+				}
+		 img{
+	      	vertical-align: top;
+	      }
+		   a{
+	      	text-decoration:none;
+	      	color:black;
+	        }
+		    em{
+				font-style:normal;
+			}	
+			i{
+				font-style:normal;
+			}
+			ul{
+				margin: 0px;
+				padding-left: 0px;	
+			}
+			li{
+				list-style: none;
+			}
+			ol{
+				margin: 0px;
+				padding-left: 0px;
+				list-style: none;
+			}
+			dl{
+				margin: 0px;
+			}
+			dd{
+				margin: 0px;
+			}
+			p{
+				margin: 0px;
+			}
+				input,
+				button,
+				a{
+					-webkit-tap-highlight-color: rgba(0,0,0,0); /* 去掉链接点击的时候 默认的半透明背景 */
+				}
+				html{
+					height: 100%;
+					overflow: hidden;
+				}
+				body{
+					height: 100%;
+					overflow: auto;
+				}
+				.topTitle{
+					width: 16rem;
+					height: 1.875rem;
+					background-color: #fabc09;
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 9999;
+				}
+				.fenlei{
+					width: 1.95rem;
+					height: 1.875rem;
+					background: url(../img/fenlei.png) no-repeat 0.55rem 0.25rem;
+					background-size: 0.8rem 1.35rem;
+				}
+				.topTitle form{
+					width: 12rem;
+					padding-top: 0.35rem;
+				}
+				.topTitle form input{
+					float: left;
+					width: 12rem;
+					height: 1.25rem;
+					border: 0;
+					background: url(../img/find.png) no-repeat 0.4rem 0.275rem;
+					background-size: 0.525rem 0.575rem;
+					background-color: #d5dba9;
+					font: 0.525rem/1.225rem "微软雅黑";
+					text-indent: 1.25rem;
+					border-radius: 0.15rem;
+				}
+				.shoppingcar {
+					width: 2.05rem;
+					height: 1.875rem;
+					background: url(../img/shoppingcar.png) no-repeat 0.425rem 0.2rem;
+					background-size: 1.225rem 1.4rem;
+				}
+				.wrap{
+					padding-top: 1.875rem;
+					background-color:#cce3d1;
+				}
+			
+				/*轮播图*/
+				.list{
+					width: 16rem;
+					height: 6.8rem;
+					overflow: hidden;
+					position: relative;
+				}
+				.box{
+					width: 96rem;
+					position: absolute;
+					left: 0;
+					top: 0;
+				}
+				.box img{
+					width: 16rem;
+					height: 6.8rem;
+				}
+				.floor1{
+					width: 16rem;
+					height: 6.65rem;
+					border-bottom: 2px solid #b9d9bf;
+					background-color:#cce3d1;
+				}
+				.floor1 a{
+					width: 3.2rem;
+					height: 3.325rem;	
+				}
+			    .floor1 img{
+			    	width: 3.2rem;
+					height: 3.325rem;	
+				}
+				.floor2{
+					width: 16rem;
+					height: 2.025rem;
+					border-bottom: 0.375rem solid #b8d9be;
+					background-color:#cce3d1;
+				}
+				.floor2 .a1 img{
+					width: 3.075rem;
+					height: 1.025rem;	
+				}
+				.floor2 .a1 {
+					padding: 0.55rem 0 0.6rem 0;
+				}
+				.floor2 .span1{
+					width: 2px;
+					height:0.875rem;	
+					background-color:#97c1a0;
+					margin: 0.65rem  0.75rem 0.65rem 0.375rem ;
+				}
+				.floor2 p{
+					width: 11.75rem;
+					height: 1.3rem;	
+					margin-top:0.375rem ;
+					margin-bottom: 0.5rem;
+					font:0.5rem/0.65rem "宋体";
+				}
+				.floor2 p span{
+					width: 11.75rem;
+					height: 0.65rem;	
+				}
+				.floor2 p span i{
+					width: 0.15rem;
+					height: 0.15rem;
+					background-color:#ffc001;
+					margin-top: 0.325rem;
+					margin-right: 0.25rem;
+				}
+				.floor2 p span .a2{
+					color:#a0a3a1;
+				}
+				.floor3{
+					background-color:#b2d9b9;
+					width: 16rem;	
+					border-bottom: 0.325rem solid #ccd8c8;
+				}
+		    	.floor3 .li1{
+					margin-bottom: 2px;	
+					width: 16rem;	
+			       height: 6.2rem;
+			    }
+				.floor3 .li1 .a1 img{
+					width: 7.95rem;
+					height: 6.2rem;
+					margin-right: 2px;
+				}
+				.floor3 .li1 span{
+					width: 7.95rem;
+				}
+				.floor3 .li1 span img{
+					width: 7.95rem;
+					height: 3.075rem;
+				} 
+				.floor3  .li1 span .a2 img{
+					margin-bottom: 3px;
+				}
+				.floor3 .li2{
+					padding-bottom: 0.5rem;
+					width: 16rem;	
+				}
+				.floor3 .li2 img{
+					width: 3.95rem;
+					height: 6.4rem;
+					margin-right: 2px;
+					margin-bottom: 3px;
+				} 
+				.floor4{
+					width: 16rem;	
+				}
+				.floor4 nav{
+					width: 16rem;	
+					height: 1.35rem;
+				}
+				.floor4 nav .a1 img{
+					width: 3.7rem;	
+					height: 1.35rem;
+				}
+				.floor4 nav .a2{
+					height: 1.35rem;
+					font:0.45rem/1.35rem "宋体";
+					margin-right: 0.25rem;
+					color:#fa4c4b;
+				}
+				.floor4 nav .a3,.floor4 nav .a4{
+					width:0.55rem;	
+					height: 0.55rem;
+					border:1px solid #9bb095;
+					margin-top:0.375rem  ;
+					margin-bottom: 0.375rem ;
+					font:0.4rem/0.55rem "宋体";
+					text-align: center;
+				}
+				.floor4 nav span{
+					width:0.45rem;	
+					font:0.5rem/0.55rem "宋体";
+					margin-top:0.375rem  ;
+					margin-bottom: 0.375rem ;
+					height: 0.55rem;
+					text-align: center;
+				}
+				.floor4 nav .a5{
+					width:0.55rem;	
+					height: 0.55rem;
+					border:1px solid red;
+					margin-top:0.375rem  ;
+					margin-bottom: 0.375rem ;
+					font:0.4rem/0.55rem "宋体";
+					text-align: center;
+					color:red;
+					margin-right: 4.25rem;
+				}
+				.floor4 nav .a6 img{
+					width: 3.75rem;	
+					height: 1.35rem;
+				}
+				.floor5{
+					width: 16rem;	
+					height: 5.475rem;
+					overflow: hidden;
+				}
+				.floor5 nav{
+					height: 5.475rem;
+					width: 20rem;	
+				}
+				.floor5 a img{
+					width: 4.75rem;	
+					height: 5.075rem;
+					margin-right:0.25rem;
+				}
+			    .floor6{
+					width: 16rem;	
+					height: 6.9rem;
+				}
+				 .floor6 img{
+					width: 7.95rem;	
+					height: 6.9rem;
+					margin-right:2px;
+				}
+				 .floor7{
+					width: 16rem;	
+					
+				}
+				 .floor7 h2{
+					width: 16rem;	
+					height: 1.25rem;
+					font:0.55rem/1.25rem "宋体";
+					background-color:white;
+					color:red;
+					text-align: center;
+					margin-bottom: 2px;
+				}
+				
+				.floor7 .a1 img{
+				 	width: 7.95rem;	
+					height: 8.5rem;
+					margin-right: 4px;
+				}
+				.floor7 nav{
+					width: 16rem;	
+					height: 8.5rem;
+				}
+				.floor7 nav div{
+					width: 7.95rem;	
+					height: 8.5rem;	
+				}
+			   .floor7 .a2 img{
+					width: 7.95rem;	
+					height: 3.075rem;	
+					margin-bottom: 2px;
+				}
+				.floor7 nav .a3 img,.floor7 nav .a4 img {
+					width: 3.95rem;	
+					height: 5.4rem;	
+					margin-right:1px;
+				}
+				.floor7 .a5 img{
+					width: 16rem;	
+					height: 4.275rem;
+					margin-bottom: 0.5rem;
+					margin-top: 0.5rem;
+				}
+				.floor8{
+					width: 16rem;	
+				}
+				.floor8 h2,
+				.floor9 h2,
+				.floor10 h2,
+				.floor11 h2,
+				.floor12 h2{
+					height: 1.25rem;
+					font: bold 0.55rem/1.25rem "宋体";
+					background-color:white;
+					color:green;
+					text-align: center;
+					margin-bottom: 2px;
+				}
+				.floor8 .a1 img{
+					width: 7.95rem;	
+					height: 6.175rem;
+					margin-bottom: 1px;
+					margin-right:2px;
+				}
+				.floor8 .a2 img{
+					width: 7.95rem;	
+					height: 3.075rem;
+					margin-bottom: 2px;
+					margin-right:2px;
+				}
+				.floor8 .a3 img{
+					width: 16rem;	
+					height: 4.275rem;
+					margin-bottom: 0.5rem;
+					margin-top:0.5rem;
+				}
+				.floor9 h2 {
+					color:#71dee8;
+				}
+				.floor9 .a1 img{
+					width: 7.95rem;	
+					height: 6.4rem;
+					margin-bottom: 2px;
+					margin-right:2px;
+				}
+				.floor9 div{
+					padding-bottom: 0.5rem;
+				}
+				.floor9 .a2 img{
+					width: 5.275rem;	
+					height: 5.525rem;
+					margin-bottom: 4px;
+					margin-right:2px;
+				}
+				.floor10 h2 {
+					color:#5e3efa;
+				}
+				.floor10 .a1 img{
+					width: 7.95rem;	
+					height: 6.175rem;
+					margin-bottom: 0.5rem;
+					margin-right:2px;
+				}
+				.floor10 .a2 img{
+					width: 3.95rem;	
+					height: 6.175rem;
+					margin-bottom: 0.5rem;
+					margin-right:2px;
+				}
+				.floor11 h2 {
+					color:#3e99fd;
+				}
+				.floor11 .a1 img{
+					width: 7.95rem;	
+					height: 6.175rem;
+					margin-bottom: 0.5rem;
+					margin-right:2px;
+				}
+				.floor11 .a2 img{
+					width: 7.95rem;	
+					height: 3.075rem;
+					margin-bottom: 2px;
+					margin-right:2px;
+				}
+				.floor12{
+					background-color: #cce3d1;
+					
+					position: relative;
+				}
+				.floor12 h2 {
+					color:#924813;
+					margin-bottom: 0;
+				}
+				.floor12 .top{
+					height: 1.7rem;
+					margin: 0.5rem 0 0.5rem 0;
+				}
+				.floor12 .top .p1,
+				.floor12 .top .p2{
+					height: 1.7rem;
+					width: 8rem;	
+				    background: url(../img/25.png) no-repeat 0 0; 
+				    background-size: 2.45rem  1.7rem;
+				}
+				.floor12 .top .p2{
+					background: url(../img/26.png) no-repeat 0 0; 
+					background-size: 2.45rem  1.7rem;
+				}
+				.floor12 .top p em {
+					font: bold 0.6rem/0.85rem "宋体";
+					text-indent: 2.45rem;
+					width: 8rem;	
+				}
+				.floor12 .top p i {
+					width: 8rem;	
+					font: bold 0.5rem/0.85rem "宋体";
+					text-indent: 2.45rem;
+					color:#b0bab2;
+				}
+				.floor12 nav{
+					width: 8rem;
+					padding-bottom: 1.2rem;
+				}
+				.floor12 nav .a1 img{
+					height: 4.875rem;
+					width: 4.9rem;
+					margin-left: 0.35rem;
+					margin-right: 2px;
+				}
+				.floor12 nav .a2 img{
+					height: 2.4rem;
+					width: 2.4rem;
+					margin-right: 0.25rem;
+					margin-bottom: 4px;
+				}
+				.floor12 nav .a3 img{	
+					margin-bottom: 0px;
+				}
+				.point{
+					width: 1.05rem;
+					height:0.2rem;
+					position: absolute;
+					left:7.5rem;
+					bottom:0.5rem;
+					
+				}
+				.point span{
+					width: 0.25rem;
+					height:0.25rem;
+					background-color:#ffc001;
+					border-radius: 50%;
+				}
+				.point i{
+					width: 0.25rem;
+					height:0.25rem;
+					background-color:#a3c9ab;
+					border-radius: 50%;
+				}
+				.point .center{
+					margin-left: 5px;
+					margin-right: 5px;
+				}
+				.floor13{
+					position: relative;
+					background-color: #b8d9be;
+					
+				}
+				.floor13 .header p{
+					width: 16rem;
+					height:0.85rem;
+					font: bold 0.65rem/0.85rem "宋体";
+					text-indent: 7.05rem;
+					color:#416c2c;
+					background:url(../../img/30.png)  no-repeat 6rem 0 ;
+					background-size:0.875rem 0.85rem;
+				}
+				.floor13 .header {
+					width: 16rem;
+					height:0.85rem;
+					padding-top: 0.625rem;
+				    padding-bottom: 0.375rem;
+				}
+				.floor13 ul{
+					width:16rem;
+				}
+				.floor13 li .a1 img{
+					width:7.475rem;
+					height:7.4rem;
+				}
+				.floor13 ul li{
+					width:7.475rem;
+					margin-left: 0.35rem;
+					margin-bottom:0.4rem;
+				}
+				.floor13 li dl{
+					height:3rem;
+					width:7.475rem;
+					background-color:#cbe3d1;
+				}
+			   .floor13 li dl dt{
+					font: bold 0.5rem/0.9rem "宋体";
+					color:#474b48;
+					height:1.8rem;
+					width:7.475rem;
+				}
+				   .floor13 li dl dd{
+					font: bold 0.5rem/0.9rem "宋体";
+					color:red;
+					height:1.15rem;
+					width:7.475rem;
+				}
+				.floor13 .a2 img{
+					height:3.325rem;
+					width:16rem;
+					margin-bottom: 0.5rem;
+				}
+				footer{
+					height:4.6rem;
+					width:16rem;
+					background-color: #cbe3d1;
+				}
+				footer p{
+					height:1.85rem;
+					width:16rem;
+					font: bold 0.55rem/1.85rem "宋体";	
+				}
+				footer p a{
+					width:3.2rem;
+					color:#09060b;
+					text-align: center;
+				}
+				footer div{
+					font: bold 0.5rem/1.5rem "宋体";
+					text-align: center;
+					color:#939594;
+				}
+				.top1{
+					width:1.5rem;
+					height:1.5rem;
+					background-color: yellow;
+					color:#008000;
+					position: fixed;
+					right:0;
+					bottom:0;
+				}
